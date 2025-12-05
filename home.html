@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        background: #4caf79;
+        font-family: "Inter", sans-serif;
+        text-align: center;
+    }
+
+    /* Homepage title buttons */
+    .title-buttons {
+        margin-top: 80px;
+    }
+
+    .big-btn {
+        display: block;
+        width: 350px;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 40px;
+        font-size: 32px;
+        font-weight: 700;
+        color: #000;
+        border: 3px solid #000;
+    }
+
+    .yellow { background: #ffe158; }
+    .cream  { background: #fff7e1; }
+    .blue   { background: #7bc6ff; }
+
+    /* Right side menu buttons */
+    .menu {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .menu-btn {
+        background: #fff8dc;
+        border: 3px solid #000;
+        border-radius: 10px;
+        padding: 15px 25px;
+        width: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        text-decoration: none;
+        color: #000;
+        font-weight: 600;
+    }
+
+    .menu-btn img {
+        width: 32px;
+        margin-right: 10px;
+    }
+
+    /* About Us section */
+    #about {
+        margin-top: 120px;
+        padding: 40px 0 80px;
+        background: #fff9e9;
+    }
+
+    .about-header {
+        background: #f8c933;
+        width: 420px;
+        margin: 0 auto 30px;
+        padding: 18px;
+        border-radius: 10px;
+        border: 3px solid #000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .about-header img {
+        width: 40px;
+    }
+
+    .about-header h1 {
+        margin: 0;
+        font-size: 26px;
+        font-weight: 700;
+    }
+
+    .about-box {
+        background: #f7b3e6;
+        max-width: 800px;
+        padding: 30px;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 3px solid #000;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* Scroll button */
+    .scroll-btn {
+        margin-top: 20px;
+        text-decoration: underline;
+        font-size: 20px;
+        cursor: pointer;
+        color: #000;
+        font-weight: 600;
+    }
+</style>
+</head>
+
+<body>
+
+<!-- TOP SECTION HOME PAGE -->
+<div class="title-buttons">
+    <div class="big-btn yellow">FIND MY</div>
+    <div class="big-btn cream">PLANT-BASED</div>
+    <div class="big-btn blue">EATERY</div>
+</div>
+
+<div class="menu">
+    <a href="#about" class="menu-btn">
+        <img src="https://img.icons8.com/fluency/48/note.png">
+        About Us
+    </a>
+
+    <a href="quiz.html" class="menu-btn">
+        <img src="https://img.icons8.com/fluency/48/ok.png">
+        Find My Restaurant!
+    </a>
+
+    <!-- <div class="scroll-btn" onclick="location.href='#about'">Scroll to About Us ↓</div> -->
+</div>
+
+<!-- ABOUT US SECTION -->
+<section id="about">
+    <div class="about-header">
+        <img src="https://img.icons8.com/fluency/48/note.png" alt="icon" />
+        <h1>ABOUT US</h1>
+    </div>
+
+    <div class="about-box">
+        This page is dedicated to efficiently finding the best vegan and vegetarian food
+        options for your specific needs. Our quiz helps to ease the difficulty in making a
+        detailed Google search by allowing you to leave the filtering out to us. We created
+        this page because we know what it is like to struggle to find options for your dietary
+        restrictions. Though there is always room for more inclusivity, we can always highlight
+        the restaurants which are available through our tool.
+    </div>
+</section>
+
+</body>
+</html>
